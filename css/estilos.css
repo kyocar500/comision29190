@@ -8,12 +8,12 @@
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: "header header header" "main main main" "band-summary-image band-summary-image band-summary-text" "member-1 member-2 member-3" "footer footer footer";
+    grid-template-areas: "header header header" "main main main" "playlist playlist playlist" "band-summary-image band-summary-image band-summary-text" "member-1 member-2 member-3" "footer footer footer";
 }
 
 .grid-header {
     grid-area: header;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 .grid-main {
@@ -47,9 +47,30 @@
     margin: 1rem 0rem;
 }
 
+.grid-spotify-playlist {
+    grid-area: playlist;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url("../img/screenViolence.jpg");
+    /* background-image: url('../img/chvrches.webp'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.grid-spotify-playlist iframe {
+    width: 50%;
+    min-height: 500px;
+    border: none;
+}
+
 .grid-band-summary-image {
     grid-area: band-summary-image;
-    background-image: url('https://i2-prod.dailyrecord.co.uk/incoming/article3736774.ece/ALTERNATES/s1200b/Screen-Shot-2014-06-21-at-121322.png');
+    /* background-image: url('https://i2-prod.dailyrecord.co.uk/incoming/article3736774.ece/ALTERNATES/s1200b/Screen-Shot-2014-06-21-at-121322.png'); */
+    background-image: url('../img/_21_chvrches-wallpaper_Chvrches-HD-Wallpaper-Wallpapers-Band-photos\,-Cool-bands-.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -198,6 +219,7 @@
     width: 100%;
     text-align: center;
     transition: all 0.5s;
+    line-height: 4.22rem;
 }
 
 .nav-link:hover {
@@ -246,6 +268,6 @@
     .grid-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-template-areas: "header" "main" "band-summary-image" "band-summary-text" "member-1" "member-2" "member-3" "footer";
+        grid-template-areas: "header" "main" "playlist" "band-summary-image" "band-summary-text" "member-1" "member-2" "member-3" "footer";
     }
 }
