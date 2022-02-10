@@ -69,7 +69,6 @@
 
 .grid-band-summary-image {
     grid-area: band-summary-image;
-    /* background-image: url('https://i2-prod.dailyrecord.co.uk/incoming/article3736774.ece/ALTERNATES/s1200b/Screen-Shot-2014-06-21-at-121322.png'); */
     background-image: url('../img/_21_chvrches-wallpaper.jpg');
     background-position: center;
     background-repeat: no-repeat;
