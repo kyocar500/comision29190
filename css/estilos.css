@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .grid-container {
@@ -185,6 +186,61 @@
 
 
 /**/
+
+.nav-link {
+    color: white;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    background: rgba(0, 0, 0, 1);
+    padding: 20px 5px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.nav-link:hover {
+    background: rgba(0, 89, 147, 0.8);
+}
+
+
+/* Now we start flexing... */
+
+.flex-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-nav li {
+    flex: 3;
+    flex-basis: 100%;
+}
+
+.flex-nav .social {
+    flex: 1;
+}
+
+@media all and (min-width:500px) {
+    .flex-nav li {
+        flex-basis: 50%;
+    }
+    .flex-nav .social {
+        flex-basis: 25%;
+    }
+}
+
+@media all and (min-width: 1000px) {
+    .flex-nav li {
+        flex-basis: auto;
+    }
+    .flex-nav .social {
+        flex-basis: auto;
+    }
+}
 
 @media screen and (max-width:768px) {
     .grid-container {
