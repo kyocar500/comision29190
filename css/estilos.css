@@ -69,7 +69,7 @@
 
 .grid-band-summary-image {
     grid-area: band-summary-image;
-    background-image: url('../img/_21_chvrches-wallpaper.jpg');
+    background-image: url('../img/chvrches-wallpaper.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
