@@ -204,7 +204,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -301,5 +300,13 @@
     .band-member-information {
         padding: 0;
         height: max-content;
+    }
+    .next-date {
+        height: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .date-container {
+        width: 100%;
     }
 }
