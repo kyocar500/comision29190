@@ -200,7 +200,7 @@
 
 .next-date {
     grid-area: next-date;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("../img/_21_chvrches-wallpaper_Wallpaper-anyone-chvrches.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("../img/chvrches-wallpaper_Wallpaper-anyone-chvrches.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
