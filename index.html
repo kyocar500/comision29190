@@ -18,17 +18,15 @@
 
     <div class="grid-container">
         <header class="grid-header">
-            <!-- <h1>Logo Image</h1> -->
-
             <nav class="flex-nav">
                 <ul>
 
-                    <li><a href="#" class="nav-link">CHVRCHΞS</a></li>
-                    <li><a href="#" class="nav-link">New Music</a></li>
-                    <li><a href="#" class="nav-link">Band Members</a></li>
-                    <li><a href=" # " class="nav-link">Next Dates</a></li>
-                    <li><a href="# " class="nav-link">Gallery</a></li>
-                    <li><a href="# " class="nav-link">Contact</a></li>
+                    <li><a href="#main-hero" class="nav-link">CHVRCHΞS</a></li>
+                    <li><a href="#spotify-playlist" class="nav-link">New Music</a></li>
+                    <li><a href="#band-members" class="nav-link">Band Members</a></li>
+                    <li><a href="#next-dates" class="nav-link">Next Dates</a></li>
+                    <!-- <li><a href="# " class="nav-link">Gallery</a></li>
+                    <li><a href="# " class="nav-link">Contact</a></li> -->
                     <li class="social ">
                         <a href="https://twitter.com/CHVRCHES" target="_blank" class="nav-link "><i class="fa fa-twitter "></i></a>
                     </li>
@@ -46,16 +44,16 @@
         </header>
 
 
-        <main class="grid-main ">
+        <main class="grid-main" id="main-hero">
             <h1 class="text-white text-center hero-title background-white-alpha-light ">CHVRCHΞS</h1>
         </main>
 
-        <section class="grid-spotify-playlist ">
+        <section class="grid-spotify-playlist " id="spotify-playlist">
             <h2 class="text-center text-big padding-2  text-white">Checkout our new music album: Screen Violence on Spotify</h2>
-            <iframe src="https://open.spotify.com/embed?uri=spotify:album:0KuAi49HdkjHiuL7TjKsud" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe clas="iframe-playlist" src="https://open.spotify.com/embed?uri=spotify:album:0KuAi49HdkjHiuL7TjKsud" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
         </section>
 
-        <section class="grid-band-summary-image "></section>
+        <section class="grid-band-summary-image " id="band-members"></section>
 
 
         <section class="grid-band-summary-text ">
@@ -97,8 +95,7 @@
                     durante varios meses en un estudio en Glasgow. Cook, Mayberry y Doherty decidieron formar una nueva banda después del éxito de las sesiones. El grupo escogió el nombre de Chvrches, usando una “v” para distinguirse de “churches” (iglesias
                     en inglés) en las búsquedas en Internet. En 2013, la banda firmó con Glassnote Records después de lanzar las canciones «Lies» y «The Mother We Share» en 2012.5​ Su EP debut, Recover,6​ se lanzó en 2013; poco después lanzarían su primer
                     álbum, The Bones of What You Believe, el 20 de septiembre de 2013.7​ Mayberry es conocida por sus labores feministas. En septiembre de 2013 escribió un artículo para The Guardian como respuesta a varios mensajes misóginos que había
-                    recibido en Internet.8​ Asimismo, es la fundadora del grupo feminista TYCI, formado en Glasgow.9​ Su trabajo con la organización incluye artículos en la revista en línea y en el blog de la misma organización, y también puede ser escuchada
-                    regularmente en los pódcast de TYCI y en el programa mensual de radio presentado por Subcity Radio. </p>
+                    recibido en Internet.8​ Asimismo, es la fundadora del grupo feminista TYCI, formado en Glasgow.9</p>
 
             </div>
         </section>
@@ -112,14 +109,50 @@
                 <p class="text-white text-justify background-black-alpha-medium band-member-about ">Martin Doherty (Clydebank, Escocia, 24 de diciembre de 1982) es un músico, productor y cantante escocés, miembro del trío de synthpop Chvrches</p>
                 <p class="text-white text-justify background-black-alpha-medium band-member-about ">Antes de la formación de Chvrches, Doherty fue miembro de gira de The Twilight Sad. También fue el líder de la banda de rock Julia Thirteen, fundada en 1999 y disuelta en 2006. Conoció y se hizo amigo de su futuro compañero de Chvrches
                     Iain Cook en 2004, mientras asistía a la Universidad de Strathclyde.4​5​ El propio Cook decidió producir el primer EP de Julia Thirteen, antes de que Doherty abandonase el proyecto para sumarse a la banda de Cook, Aereogramme, en 2007</p>
-                <p class="text-white text-justify background-black-alpha-medium band-member-about ">En las primeras actuaciones de la canción «We Sink», Doherty se presentó como el vocalista principal, aunque la cantante Lauren Mayberry asumiría más tarde ese papel a tiempo completo. El segundo álbum de Chvrches, Every Open Eye, tiene
-                    a Doherty como voz principal en las canciones «High Enough to Carry You Over» y «Follow You», este último incluido como bonus track en la versión deluxe del álbum. Aunque inicialmente estaba excluida de la lista de tema para la gira
-                    de Every Open Eye, «High Enough to Carry You Over» hizo su debut en vivo el 13 de marzo de 2016 el Teatro Riviera en Chicago, Illinois.</p>
+                <p class="text-white text-justify background-black-alpha-medium band-member-about ">Antes de la formación de Chvrches, Doherty fue miembro de gira de The Twilight Sad. También fue el líder de la banda de rock Julia Thirteen, fundada en 1999 y disuelta en 2006. Conoció y se hizo amigo de su futuro compañero de Chvrches
+                    Iain Cook en 2004, mientras asistía a la Universidad de Strathclyde.4​5​ El propio Cook decidió producir el primer EP de Julia Thirteen, antes de que Doherty abandonase el proyecto para sumarse a la banda de Cook, Aereogramme, en 2007</p>
             </div>
         </section>
 
-        <footer class="grid-footer ">
-            <h1>Footer</h1>
+
+        <!-- Next dates section -->
+        <section class="next-date" id="next-dates">
+            <h3 class="text-center text-white text-big">Next Tour Dates</h3>
+
+            <div class="date-container background-white-alpha-strong">
+                <h4 class="text-strong-blue text">Date: 13-02-2022 @ Autunm Park, Belgium</h4>
+            </div>
+
+            <div class="date-container background-white-alpha-strong">
+                <h4 class="text-strong-blue text">Date: 13-02-2022 @ Autunm Park, Belgium</h4>
+            </div>
+
+            <div class="date-container background-white-alpha-strong">
+                <h4 class="text-strong-blue text">Date: 13-02-2022 @ Autunm Park, Belgium</h4>
+            </div>
+
+            <div class="date-container background-white-alpha-strong">
+                <h4 class="text-strong-blue text">Date: 13-02-2022 @ Autunm Park, Belgium</h4>
+            </div>
+
+            <div class="date-container background-white-alpha-strong">
+                <h4 class="text-strong-blue text">Date: 13-02-2022 @ Autunm Park, Belgium</h4>
+            </div>
+            <div class="date-container background-white-alpha-strong">
+                <h4 class="text-strong-blue text">Date: 13-02-2022 @ Autunm Park, Belgium</h4>
+            </div>
+            <div class="date-container background-white-alpha-strong">
+                <h4 class="text-strong-blue text">Date: 13-02-2022 @ Autunm Park, Belgium</h4>
+            </div>
+            <div class="date-container background-white-alpha-strong">
+                <h4 class="text-strong-blue text">Date: 13-02-2022 @ Autunm Park, Belgium</h4>
+            </div>
+
+        </section>
+
+        <footer class="grid-footer background-black-alpha-total">
+            <h4 class="text-center text-white">© 2022 - Chvrches - All Rights Reserved</h4>
+            <p class="text-center text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste ullam omnis veniam expedita! Saepe, id.</p>
         </footer>
     </div>
 
