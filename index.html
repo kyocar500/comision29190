@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
@@ -21,7 +23,7 @@
             <nav class="flex-nav">
                 <ul>
 
-                    <li><a href="#main-hero" class="nav-link">CHVRCHΞS</a></li>
+                    <li><a href="#main-hero" class="nav-link"><span  data-aos="fade-in">CHVRCHΞS</span> </a></li>
                     <li><a href="#spotify-playlist" class="nav-link">New Music</a></li>
                     <li><a href="#band-members" class="nav-link">Band Members</a></li>
                     <li><a href="#next-dates" class="nav-link">Next Dates</a></li>
@@ -53,10 +55,10 @@
             <iframe clas="iframe-playlist" src="https://open.spotify.com/embed?uri=spotify:album:0KuAi49HdkjHiuL7TjKsud" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
         </section>
 
-        <section class="grid-band-summary-image " id="band-members"></section>
+        <section class="grid-band-summary-image " id="band-members" data-aos="zoom-in"></section>
 
 
-        <section class="grid-band-summary-text ">
+        <section class="grid-band-summary-text " data-aos="zoom-in">
             <h2 class="text-center text-strong-blue text-big ">About CHVRCHΞS Band!</h2>
             <p class="text-justify ">Chvrches, en ocasiones estilizado como CHVRCHΞS (se pronuncia churches [iglesias]), es una banda británica de synthpop e indie proveniente de la ciudad de Glasgow, Escocia, Reino Unido, formada en 2011. La banda está compuesta por Iain Cook
                 (sintetizadores, guitarra, bajo), Martin Doherty (sintetizadores, samplers, voz), y Lauren Mayberry (voz, sintetizadores y samplers adicionales).4​ La banda logró gran éxito en gran parte del mundo gracias a su álbum debut The Bones of
@@ -72,8 +74,8 @@
 
         <!--Band members-->
         <section class="grid-band grid-band-members-1 ">
-            <div class="band-member-background band-member-background-1 "></div>
-            <div class="band-member-information ">
+            <div class="band-member-background band-member-background-1 " data-aos="fade-up"></div>
+            <div class="band-member-information " data-aos="fade-up">
                 <h3 class="text-white text-center text-big band-member-name ">Iain Cook</h3>
                 <img class="rounder-border-image band-member-image " src="img/bandMembers/Iain_Cook.jpg " alt="chvrches member Iain Cook " />
                 <p class="text-white text-justify background-black-alpha-medium band-member-about ">Iain Cook (Glasgow, Escocia, 2 de noviembre de 1974) es un músico, compositor y productor escocés, miembro del trío de synthpop Chvrches. </p>
@@ -86,9 +88,9 @@
         </section>
 
         <section class="grid-band grid-band-members-2 ">
-            <div class="band-member-background band-member-background-2 "></div>
+            <div class="band-member-background band-member-background-2 " data-aos="fade-up"></div>
             <div class="band-member-information ">
-                <h3 class="text-white text-center text-big band-member-name ">Lauren Mayberry </h3>
+                <h3 class="text-white text-center text-big band-member-name " data-aos="fade-up">Lauren Mayberry </h3>
                 <img class="rounder-border-image band-member-image " src="img/bandMembers/band_2.jpg " alt="chvrches vocalist Lauren Mayberry " />
                 <p class="text-white text-justify background-black-alpha-medium band-member-about "> (Thornhill, Stirling; 7 de octubre de 1987) es una cantante, compositora, multiinstrumentista y periodista escocesa, conocida por ser la vocalista de la banda de synthpop proveniente de Glasgow Chvrches. </p>
                 <p class="text-white text-justify background-black-alpha-medium band-member-about "> n septiembre de 2011, Iain Cook de Aereogramme y The Unwinding Hours produjo el EP Triple A-Side de Blue Sky Archives. Cook empezó un nuevo proyecto con su amigo Martin Doherty y le pidió a Lauren Mayberry que realizara unas pruebas. Compusieron
@@ -102,8 +104,8 @@
 
 
         <section class="grid-band grid-band-members-3 ">
-            <div class="band-member-background band-member-background-3 "></div>
-            <div class="band-member-information ">
+            <div class="band-member-background band-member-background-3 " data-aos="fade-up"></div>
+            <div class="band-member-information " data-aos="fade-up">
                 <h3 class="text-white text-center text-big band-member-name ">Martin Doherty</h3>
                 <img class="rounder-border-image band-member-image " src="img/bandMembers/Martin_Clifford_Doherty.jpg " alt="chvrches member Martin Clifford Doherty " />
                 <p class="text-white text-justify background-black-alpha-medium band-member-about ">Martin Doherty (Clydebank, Escocia, 24 de diciembre de 1982) es un músico, productor y cantante escocés, miembro del trío de synthpop Chvrches</p>
@@ -119,40 +121,35 @@
         <section class="next-date" id="next-dates">
             <h3 class="text-center text-white text-big">Next Tour Dates</h3>
 
-            <div class="date-container background-white-alpha-strong">
+            <div class="date-container background-white-alpha-strong" data-aos="fade-in">
                 <h4 class="text-strong-blue text-center">Date: 13-02-2022 @ Autunm Park, Belgium</h4>
             </div>
 
-            <div class="date-container background-white-alpha-strong">
+            <div class="date-container background-white-alpha-strong" data-aos="fade-out">
+                <h4 class="text-strong-blue text-center">Date: 13-02-2022 @ Autunm Park, Belgium</h4>
+            </div>
+            <div class="date-container background-white-alpha-strong" data-aos="fade-in">
                 <h4 class="text-strong-blue text-center">Date: 13-02-2022 @ Autunm Park, Belgium</h4>
             </div>
 
-            <div class="date-container background-white-alpha-strong">
+            <div class="date-container background-white-alpha-strong" data-aos="fade-out">
+                <h4 class="text-strong-blue text-center">Date: 13-02-2022 @ Autunm Park, Belgium</h4>
+            </div>
+            <div class="date-container background-white-alpha-strong" data-aos="fade-in">
                 <h4 class="text-strong-blue text-center">Date: 13-02-2022 @ Autunm Park, Belgium</h4>
             </div>
 
-            <div class="date-container background-white-alpha-strong">
+            <div class="date-container background-white-alpha-strong" data-aos="fade-out">
+                <h4 class="text-strong-blue text-center">Date: 13-02-2022 @ Autunm Park, Belgium</h4>
+            </div>
+            <div class="date-container background-white-alpha-strong" data-aos="fade-in">
                 <h4 class="text-strong-blue text-center">Date: 13-02-2022 @ Autunm Park, Belgium</h4>
             </div>
 
-            <div class="date-container background-white-alpha-strong">
+            <div class="date-container background-white-alpha-strong" data-aos="fade-out">
                 <h4 class="text-strong-blue text-center">Date: 13-02-2022 @ Autunm Park, Belgium</h4>
             </div>
-            <div class="date-container background-white-alpha-strong">
-                <h4 class="text-strong-blue text-center">Date: 13-02-2022 @ Autunm Park, Belgium</h4>
-            </div>
-            <div class="date-container background-white-alpha-strong">
-                <h4 class="text-strong-blue text-center">Date: 13-02-2022 @ Autunm Park, Belgium</h4>
-            </div>
-            <div class="date-container background-white-alpha-strong">
-                <h4 class="text-strong-blue text-center">Date: 13-02-2022 @ Autunm Park, Belgium</h4>
-            </div>
-            <div class="date-container background-white-alpha-strong">
-                <h4 class="text-strong-blue text-center">Date: 13-02-2022 @ Autunm Park, Belgium</h4>
-            </div>
-            <div class="date-container background-white-alpha-strong">
-                <h4 class="text-strong-blue text-center">Date: 13-02-2022 @ Autunm Park, Belgium</h4>
-            </div>
+
 
         </section>
 
@@ -161,6 +158,17 @@
             <p class="text-center text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste ullam omnis veniam expedita! Saepe, id.</p>
         </footer>
     </div>
+
+    <script>
+        AOS.init({
+            // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+            delay: 0, // values from 0 to 3000, with step 50ms
+            duration: 800, // values from 0 to 3000, with step 50ms
+            easing: 'ease', // default easing for AOS animations
+            once: true, // whether animation should happen only once - while scrolling down
+
+        });
+    </script>
 
 </body>
 
